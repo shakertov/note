@@ -15,9 +15,38 @@
 Скрипт на Python с использованием библиотеки PyQt5 + использование pyinstaller для компиляции в EXE-файл.
 
 ## Установка
+Получение репозитария.
 ```
 git clone <note.git>
 ```
+Установка на Windows.
+```
+pip install pyinstaller
+pyinstaller --onefile --noconsole --clean --icon=note.ico note.py
+```
+После компиляции появятся две дополнительные папки и файл с расширением .spec.
+```
+/note_dir
+-- /dist
+-- /build
+-- .spec
+-- note.py
+-- note.ico
+```
+В папке dist будет исполняемый EXE файл. Для удобства можно добавить в автозагрузку.
+Папку build и файл с расширением .spec можно удалить.
+
+После запуска приложения создаются два файла в той же директории settings.txt и text.txt.
+```
+/note_dir
+-- /dist
+---- note.exe
+---- settings.txt -> настройки приложения (местоположение, размер окна)
+---- text.txt -> содержимое заметки
+-- note.py
+-- note.ico
+```
+
 
 ## Скриншоты
 Общий вид.
