@@ -14,3 +14,12 @@
 ## Решение
 Скрипт на Python с использованием библиотеки PyQt5 + использование pyinstaller для компиляции в EXE-файл.
 
+## Скриншоты
+Общий вид.
+<img width="1116" height="551" alt="image" src="https://github.com/user-attachments/assets/a98c1dad-4746-4a7d-9980-22f081fa8bbe" />
+
+Меню.
+<img width="1069" height="496" alt="image" src="https://github.com/user-attachments/assets/f14e3921-a379-422b-b3f1-7439e1095403" />
+
+Редактирование.
+<img width="1146" height="640" alt="image" src="https://github.com/user-attachments/assets/b8b49382-c2d4-4260-973b-35efb79110c2" />
