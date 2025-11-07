@@ -14,6 +14,11 @@
 ## Решение
 Скрипт на Python с использованием библиотеки PyQt5 + использование pyinstaller для компиляции в EXE-файл.
 
+## Установка
+```
+git clone <note.git>
+```
+
 ## Скриншоты
 Общий вид.
 <img width="1116" height="551" alt="image" src="https://github.com/user-attachments/assets/a98c1dad-4746-4a7d-9980-22f081fa8bbe" />
